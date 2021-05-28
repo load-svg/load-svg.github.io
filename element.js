@@ -1,0 +1,1 @@
+customElements.define("load-svg",class extends HTMLElement{async connectedCallback(t){t=await(await fetch(this.getAttribute("src"))).text();if(this.hasAttribute("replace")){this.innerHTML=t;this.replaceWith(...this.children)}else{this.attachShadow({mode:"open"}).innerHTML=t;this.shadowRoot.append(...this.children)}}})
