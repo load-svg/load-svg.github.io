@@ -1,2 +1,1 @@
-# load-svg.github.io
-Web Component to load external SVG, inject SVG
+# https://github.com/load-svg/load-svg.github.io
